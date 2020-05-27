@@ -1,0 +1,247 @@
+*{
+    padding-bottom: 0;
+    margin: 0;
+}
+.wrapper{
+    height: 100vh;
+   
+    background-size: cover;
+}
+
+/* css for cards */
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 300px;
+    
+    text-align: center;
+  }
+  
+  .title {
+    color: grey;
+    font-size: 18px;
+  }
+  
+  button {
+    border: none;
+    outline: 0;
+    display: inline-block;
+    padding-top: 5rem;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+   
+    font-size: 18px;
+  }
+/*   
+  a {
+    text-decoration: none;
+    font-size: 22px;
+    color: black;
+  }
+   */
+  button:hover, a:hover {
+    opacity: 0.7;
+  }
+  .btn-submit{
+      width: 47%;
+  }
+  .profile-box{
+     height: 80vh;
+  }
+  #fname{
+      width: 15%;
+  }
+  #sname{
+      width: 15%;
+  }
+  #pwd{
+      width: 15%;
+  }
+ 
+  #p1{
+      margin-left: 40%;
+      color: white;
+      font-weight: 700;
+  }
+  #head2{
+      margin-left: 25%;
+      margin-top: 20%;
+      font-weight: 900;
+      color: white;
+  }
+  #head{
+      font-weight: 700;
+      margin-left: 35%;
+  }
+ .btn1{
+   position: relative;
+   margin-top: 5rem;
+ }
+  .more{
+      list-style: none;
+  }
+
+  #profile-grid{
+    align-items: center;
+    justify-content: center;
+    margin-left: 15rem;
+    margin-right: 15rem;
+    margin-bottom: 5rem;
+  }
+  h1{
+margin-top: 30PX;
+margin-bottom: 30px;
+justify-content: center;
+align-items: center;
+
+  }
+
+ .more-info{
+   margin-top: 1rem;
+ }
+p{
+  line-height: 2rem;
+  color:black;
+}
+/* #b1{
+  background-image: url(./images/yellow-metal-design-decoration.jpg);
+  height: 100vh;
+  background-size: cover;
+} */
+.img{
+  
+  transition: transform .3s; /* Animation */
+  
+}
+.img:hover{
+  transform: scale(1.1);
+  cursor: pointer;
+}
+
+.contianer {
+  display: grid;
+}
+
+.contianer {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: 300px 300px 300px;
+}
+img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+/* #pic1 {
+  grid-column-start: 1;
+  grid-column-end: 3;
+} */
+#pic3 {
+  grid-row-start: 2;
+  grid-row-end: 4;
+}
+#pic4 {
+  grid-column-start: 2;
+  grid-column-end: 4;
+  
+}
+.head{
+  text-align: center;
+  font-size: 60px;
+  font-weight: 900;
+  color: black;
+  margin-top: 10%}
+#pic3{
+  transition: transform .5s, filter 1.5s ease-in-out;
+  filter: grayscale(100%);
+ 
+}
+#pic3:hover{
+  filter: grayscale(0);
+  transform: scale(1.1);/* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
+#pic7{
+  transition: transform .5s, filter 1.5s ease-in-out;
+  filter: grayscale(100%);
+}
+#pic7:hover{
+  filter: grayscale(0);
+  transform: scale(1.1);
+}
+
+#pic6{
+  transition: transform .5s, filter 1.5s ease-in-out;
+  filter: grayscale(100%);
+}
+#pic6:hover{
+  filter: grayscale(0);
+  transform: scale(1.1);
+}
+.para{
+  text-align: center;
+  font-size: 4rem;
+  line-height: 3rem;
+  padding-left: 10%;
+  margin-right: 5%;
+  
+}
+
+
+#b2,#b1{
+  background-color: #374A67;
+}
+
+.top_page{
+    background-color: #0E1116;
+    height: 100vh;
+    
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    
+    
+  }
+  
+  li {
+    float: left;
+  }
+  nav{
+    position: fixed;
+    width: 100%;
+    background-color: none;
+    height: 90px;
+    padding: 30px 60px;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 1vw;
+  }
+  
+  /* Change the link color to #111 (black) on hover */
+  li a:hover {
+    background-color: #111;
+  }
+  .art{
+    text-align: center;
+    font-weight: 900;
+    font-size: 100px;
+  }
+
+.slogon{
+  text-align: center;
+  margin-top: 15%;
+  color: white;
+  font-size: 6rem;
+  font-weight: bold;
+  font-stretch: expanded;
+}
